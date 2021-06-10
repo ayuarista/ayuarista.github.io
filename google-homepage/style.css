@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #222;
+    height: 100%;
+    min-width: 400px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    float: right;
+}
+
+nav a {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding-right: 15px;
+}
+
+.nav-image {
+    border: 1px none #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.google-input {
+    padding: 20px;
+    max-height: 160px;
+    width: auto;
+    max-width: 584px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.google-search {
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+
+.google-search-image {
+    margin: auto 15px;
+    height: 20px;
+    width: 20px;
+    opacity: 0.5;
+}
+
+.google-search:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+}
+
+input {
+    background-color: transparent;
+    width: 584px;
+    border: none;
+}
+
+.google-image {
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+}
+
+.google-image-img {
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+}
+
+.google-image-img img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+}
+
+.google-button {
+    height: 70px;
+    padding-top: 18px;
+}
+
+.google-offer {
+    font-size: small;
+    margin-bottom: 24px;
+    flex-grow: 1;
+}
+
+.google-offer a {
+    padding: 0 3px;
+    color: #1a0dab;
+}
+
+footer {
+    background-color: #f2f2f2;
+}
+
+.footer-region {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+}
+
+.footer-info {
+    display: flex;
+    padding: 0 20px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+    justify-content: space-between;
+}
+
+.left-section,
+.right-section {
+    display: flex;
+    float: left;
+    justify-content: space-evenly;
+}
+
+.left-section a {
+    padding: 15px;
+    color: #70757a;
+    white-space: nowrap;
+}
+
+.right-section a {
+    padding: 15px;
+    color: #70757a;
+}
